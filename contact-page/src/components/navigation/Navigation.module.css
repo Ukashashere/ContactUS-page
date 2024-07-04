@@ -1,0 +1,14 @@
+.navigation {
+    padding: 0 8px;   /*little little distance from left and right edge of the screen */
+    display: flex;    /* vertical cheex horizontal me aa jaati hai */
+    height : 72px;
+    align-items: center;
+    justify-content: space-between;
+}
+                      /* IMP* */
+.navigation ul {      /* ul,li ye sab unme effect hoga jo humne jsx me define kiye the, ul,li etc */
+    display: flex;    /* vertical cheex horizontal me aa jaati hai */
+    gap: 24px;
+    list-style-type: none;  /* dot hatane ke liye*/
+    font-weight: 500;  /* made teh font dark and bold */
+}

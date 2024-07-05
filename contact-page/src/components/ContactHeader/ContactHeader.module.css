@@ -1,0 +1,10 @@
+.contact_secton h1{
+    font-size: 48px;
+    font-weight: 800; /*because it is extra Bold*/
+    height: 72px;
+}
+
+.contact_secton p{
+    font-size: 16px;  /*this is default also*/
+    font-weight: 500; /*because it is semi Bold*/ 
+}

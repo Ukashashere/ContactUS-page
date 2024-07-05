@@ -10,34 +10,13 @@ const Navigation = () =>{
       <ul>
         <li>Home</li>
         <li>About</li>
-        <li>Contact</li>
+        <li>Contact</li>   {/* This page has things to Learn*/}
       </ul>
     </nav>
   );
 };
 
 export default Navigation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* rafce- shortcut
 import React from 'react'

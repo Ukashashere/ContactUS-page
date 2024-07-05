@@ -1,0 +1,5 @@
+.container{   /*it'll not override the global container coz here we're using modules*/
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto; /*to make it remain at the centre*/
+}

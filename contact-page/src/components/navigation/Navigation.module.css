@@ -3,7 +3,7 @@
     display: flex;    /* vertical cheex horizontal me aa jaati hai */
     height : 72px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
                       /* IMP* */
 .navigation ul {      /* ul,li ye sab unme effect hoga jo humne jsx me define kiye the, ul,li etc */

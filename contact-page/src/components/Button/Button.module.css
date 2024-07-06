@@ -1,0 +1,11 @@
+.primary_btn{
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    min-width: 220px; /*for width*/
+    border-radius: 5px; /*for round edges*/
+    display: flex;
+    align-items: centre; /*to fix items at the centre*/
+    gap: 8px; /*gap between elements*/
+    justify-content: centre; /*fix items at centre forcefully*/
+}

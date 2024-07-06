@@ -5,8 +5,8 @@
     min-width: 220px; /*for width*/
     border-radius: 5px; /*for round edges*/
     display: flex;
-    align-items: centre; /*to fix items at the centre*/
+    align-items: center; /*to fix items at the centre*/
     gap: 8px; /*gap between elements*/
     font-size: 16px;
-    justify-content: centre; 
+    justify-content: center; 
 }

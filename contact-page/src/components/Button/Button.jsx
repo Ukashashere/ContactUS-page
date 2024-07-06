@@ -1,11 +1,11 @@
 import styles from './Button.module.css'
 import { MdMessage } from "react-icons/md";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <button className={styles.primary_btn}>
-        <MdMessage />
-        VIA SUPPORT CHAT
+      {props.icon}
+      {props.text}
     </button>
   );
 };

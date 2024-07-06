@@ -7,5 +7,6 @@
     display: flex;
     align-items: centre; /*to fix items at the centre*/
     gap: 8px; /*gap between elements*/
-    justify-content: centre; /*fix items at centre forcefully*/
+    font-size: 16px;
+    justify-content: centre; 
 }

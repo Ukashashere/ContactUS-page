@@ -9,6 +9,7 @@
     gap: 8px; /*gap between elements*/
     font-size: 16px;
     justify-content: center; 
+    cursor: pointer;
 }
 .outline_btn{
     padding: 18px 10px;
@@ -22,5 +23,7 @@
     gap: 8px; 
     font-size: 16px;
     justify-content: center;
+    cursor: pointer;
     width:100%;
+    
 }

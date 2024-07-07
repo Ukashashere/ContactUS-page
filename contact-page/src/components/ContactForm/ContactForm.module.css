@@ -3,3 +3,8 @@
     max-width: 1000px;
     margin: 0 auto; /*to make it remain at the centre*/
 }
+
+.top_btn{
+    display: flex;
+    gap: 32px;  /*for gap between elements inside it*/
+}

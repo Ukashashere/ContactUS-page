@@ -8,3 +8,9 @@
     display: flex;
     gap: 32px;  /*for gap between elements inside it*/
 }
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

@@ -12,14 +12,15 @@
 }
 .outline_btn{
     padding: 18px 10px;
-    border: 1px;
+    border: 1px solid black; /* for border: 1px; it was showing no border */
     color: black;
     background-color: white;
-    min-width: 220px; /*for width*/
-    border-radius: 5px; /*for round edges*/
+    min-width: 220px; 
+    border-radius: 5px; 
     display: flex;
-    align-items: center; /*to fix items at the centre*/
-    gap: 8px; /*gap between elements*/
+    align-items: center; 
+    gap: 8px; 
     font-size: 16px;
     justify-content: center;
+    width:100%;
 }

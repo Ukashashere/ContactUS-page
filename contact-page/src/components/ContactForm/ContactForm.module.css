@@ -14,3 +14,13 @@
     flex-direction: column;
     gap: 24px;
 }
+
+.form_control{
+    display:flex;
+    flex-direction: column;
+    width: 100%;  /*to take full spacing ,to take 100% spacing*/
+}
+
+.form_control input {
+    height: 48px;
+}

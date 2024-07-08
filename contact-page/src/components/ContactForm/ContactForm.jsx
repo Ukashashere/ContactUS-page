@@ -17,6 +17,14 @@ const ContactForm = () => {
             <div className={styles.form_control}>
               <label htmlFor="name">Name</label>          
               <input type="text" name="name" />
+            </div>
+            <div className={styles.form_control}>
+              <label htmlFor="name">Email</label>          
+              <input type="email" name="email" />
+            </div>
+            <div className={styles.form_control}>
+              <label htmlFor="name">Text</label>          
+              <textarea name="text" />
             </div>            
           </form>          
         </div>  

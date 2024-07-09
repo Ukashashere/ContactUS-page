@@ -1,7 +1,12 @@
+.contact_secton{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .contact_secton h1{
     font-size: 48px;
     font-weight: 800; /*because it is extra Bold*/
-    height: 72px;
+    max-width: 80%;
 }
 
 .contact_secton p{

@@ -16,7 +16,9 @@ body{
 
 .main_container{
   display: flex;
-  height: 100vh; /*as % of screen, 100vh means 100% of screen */
+  height: calc(100vh - 72px); /*as % of screen, 100vh means 100% of screen, calc to remove scrool behavior which is because of 72px of Navigation height */
+  flex-direction: column;
+  justify-content: end;
 }
 
 /* These css is GLOBAL so it is left here */

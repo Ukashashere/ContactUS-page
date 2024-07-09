@@ -25,6 +25,9 @@ const ContactForm = () => {
             <div className={styles.form_control}>
               <label htmlFor="name">Text</label>          
               <textarea name="text" />
+            </div>
+            <div>
+              <Button text="SUBMIT" />
             </div>            
           </form>          
         </div>  

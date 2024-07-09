@@ -14,4 +14,9 @@ body{
   margin: 0 auto; 
 }
 
+.main_container{
+  display: flex;
+  height: 100vh; /*as % of screen, 100vh means 100% of screen */
+}
+
 /* These css is GLOBAL so it is left here */

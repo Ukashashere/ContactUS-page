@@ -24,14 +24,19 @@ const ContactForm = () => {
             </div>
             <div className={styles.form_control}>
               <label htmlFor="name">Text</label>          
-              <textarea name="text" />
+              <textarea name="text" rows="8" />
             </div>
-            <div>
+            <div style = {{
+              display: "flex",
+              justifyContent: "end", /*to make the button move to the right side*/
+            }}>
               <Button text="SUBMIT" />
             </div>            
           </form>          
         </div>  
-        <div className={styles.contact_image}></div>
+        <div className={styles.contact_image}>
+          <img src="/images/contact.svg" alt="contact image" />
+        </div>
     </section>
   );
 };

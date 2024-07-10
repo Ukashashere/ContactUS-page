@@ -5,6 +5,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 
 const ContactForm = () => {
+
+  const onViaCallSubmit = () =>{
+    console.log("I am from call");
+  };
   return (
     <section className={styles.container}>
         <div className={styles.contact_form}>
@@ -12,7 +16,7 @@ const ContactForm = () => {
             <Button text="VIA SUPPORT CHAT" icon={<MdMessage fontSize="24px" />} />
             <Button text="VIA CALL" icon={<FaPhoneAlt fontSize="24px" />} />
           </div>
-          <Button isOutline={true} text="VIA EMAIL FORM" icon={<HiMail fontSize="24px" />} />
+          <Button onClick={onViaCallSubmit} isOutline={true} text="VIA EMAIL FORM" icon={<HiMail fontSize="24px" />} /> {/* onClick is for click , when clicked it calls the onViaCallSubmit function */}
           <form>
             <div className={styles.form_control}>
               <label htmlFor="name">Name</label>          

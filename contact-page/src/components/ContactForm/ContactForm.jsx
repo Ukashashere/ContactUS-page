@@ -3,22 +3,21 @@ import styles from './ContactForm.module.css'
 import { MdMessage } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
+import { useState } from 'react';
 
 const ContactForm = () => {
-  let name;
-  let email;
-  let text; 
+
+  const [name, setName] = useState("Ukasha");  {/*use state hook function, function only but with different syntax*/}
+  const [email, setEmail] = useState("support@ukasha.com");
+  const [text, setText] = useState("Submit the problems you are facing");
+ 
 
   const onSubmit = (event) =>{
     event.preventDefault(); {/*to prevent happining teh thing with the url*/}
 
-    name = event.target[0].value;
-    email = event.target[1].value;
-    text = event.target[2].value;
-
-    console.log("name", event.target[0].value);
-    console.log("email", event.target[1].value);
-    console.log("text", event.target[2].value);
+    setName(event.target[0].value);
+    setEmail(event.target[1].value);
+    setText(event.target[2].value);
   };
 
   return (
@@ -47,7 +46,8 @@ const ContactForm = () => {
               justifyContent: "end", /*to make the button move to the right side*/
             }}>
               <Button text="SUBMIT" />
-            </div>            
+            </div>
+            <div>{name + " " + email + " " + text}</div>            
           </form>          
         </div>  
         <div className={styles.contact_image}>

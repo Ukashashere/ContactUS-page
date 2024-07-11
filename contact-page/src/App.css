@@ -16,7 +16,7 @@ body{
 
 .main_container{
   display: flex;
-  height: calc(100vh - 72px); /*as % of screen, 100vh means 100% of screen, calc to remove scrool behavior which is because of 72px of Navigation height */
+  /*height: calc(100vh - 72px);*/   /*Remmoved it to enable scrolling*/                           /*as % of screen, 100vh means 100% of screen, calc to remove scrool behavior which is because of 72px of Navigation height */
   flex-direction: column;
   justify-content: end;
 }
